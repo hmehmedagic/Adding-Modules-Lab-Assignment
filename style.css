@@ -1,0 +1,33 @@
+.container {
+    border: solid blue;
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    margin: 1em;
+    border-radius: 5px;
+}
+
+.dashboard {
+    border: solid black;
+    padding: 1em;
+}
+
+.spacer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sprintContainer {
+    border: solid black;
+    padding: 1em;
+}
+
+.photoContainer {
+    border: solid black;
+    padding: 1em;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+}
